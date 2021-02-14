@@ -1,0 +1,17 @@
+time=input("Enter time ")
+verb=input("Enter a verb in past tense ")
+hairstyle = input("Enter any kind of hairstyle ")
+thing = input("Enter a thing ")
+car=input("Enter a car name ")
+song=input("Enter a song name ")
+place=input("Enter a place name ")
+time1=input("Enter a number ")
+name=input("Enter a name ")
+body_part=input("Enter a body part ")
+number=str(input("Enter a number "))
+hours=str(input("Enter number "))
+time2=str(input("Enter a number "))
+adjective = input("Enter an adjective ")
+
+print("The alarm went off at "+time+"AM, and I "+verb+"out of the bed. I was getting late to school for the picnic and threw my hair in "+hairstyle+" style, which obviously fell all over my "+thing+". And then, I had to get into our new "+car+" where we played "+song+" all the way. When we reached the school, we were told that we had to go to "+place+". It was again a "+time1+" hours drive. As soon as we reached there, my friend "+name+" fell down and broke his "+body_part+". We had to roam about "+number+" hospitals and about after "+number+" hours, we found a hospital. It was about "+time2+" by the time I got home. It was "+adjective+" day.")
+
