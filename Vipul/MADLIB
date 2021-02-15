@@ -1,0 +1,13 @@
+def madlib():
+    name = input('enter the name of animal :')
+    color = input('enter its color :')
+    food = input('favourite food of the animal :')
+    adjective = input('enter a adjective which describes the animal :')
+    location = input('enter the place where the animal is found :')
+    category = input('enter the category of the animal :')
+    sound = input('enter the sound it makes :')
+    feel = input('describe your feel in one word :')
+    print('hi sam, i saw a ' + name +" \n It was in " + color +" color \n"+" I heard it comes under "
+    + category + "\n It was so " + adjective + "\n Usually we can see them in " + location +" \n their favourite food is " + food + "\n It makes a "+ sound + " sound"+ "\n I was very "+ 
+     feel + " and had a great time  " )
+madlib()
