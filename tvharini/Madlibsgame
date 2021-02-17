@@ -1,0 +1,15 @@
+number=input("eneter a number:")
+
+plural_noun=input("enter a plural noun:")
+
+celebrity=input("enter a celebrity:")
+
+name=input("enter a name")
+
+print("Monica geller is " + number +" times clean" +"!")
+
+print(plural_noun  + "doesnt share food")
+
+print("i love"  + celebrity)
+
+print(name  +"is sarcasm king")
