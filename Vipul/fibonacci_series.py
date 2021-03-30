@@ -1,7 +1,7 @@
 def fib(x):
     n1 = 0 
     n2 =1 
-    if n == 0 :
+    if x == 0 :
         print("Inavlid input")
     else:
         for i in range(x):
