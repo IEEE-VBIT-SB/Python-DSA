@@ -23,7 +23,7 @@ def check_if_it_can_form_palindrome(st):  #  3
     for c in res.values():
         if(int(c)%2!=0):
             count=count+1
-    print(count-1)                          # 4, 5
+    print(count-1)                          # 4, 5 (-1 becuase we can have one odd character in the palindrome)
 
 repeat=int(input("No. of strings"))
 for i in range (0,repeat):
