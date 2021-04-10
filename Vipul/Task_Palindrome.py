@@ -12,6 +12,8 @@ def to_form_palindrome(str):
     for i in var_count.values():
         if i % 2 != 0:
             count +=1
+        else:
+            count = 1
     print("Minimum character required more :{}".format(count-1))
     
 n = int(input("enter no of testcases : "))
